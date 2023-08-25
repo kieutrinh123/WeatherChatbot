@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+
+- story: chao hoi
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: hoi thoi tiet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather
+  - action: utter_weather
+
+- story: hoi thoi tiet cu the 0
+  steps:
+  - intent: weather_location0
+  - action: action_weather_location0
+
+- story: hoi thoi tiet cu the 1
+  steps:
+  - intent: weather_location1
+  - action: action_weather_location1
+
+- story: hoi thoi tiet cu the 2
+  steps:
+  - intent: weather_location2
+  - action: action_weather_location2
+
+- story: hoi thoi tiet cu the 3
+  steps:
+  - intent: weather_location3
+  - action: action_weather_location3
+
+- story: hoi thoi tiet cu the 4
+  steps:
+  - intent: weather_location4
+  - action: action_weather_location4
+
+- story: hoi thoi tiet cu the 5
+  steps:
+  - intent: weather_location5
+  - action: action_weather_location5
+
+- story: hoi thoi tiet cu the 6
+  steps:
+  - intent: weather_location6
+  - action: action_weather_location6
+
+
+- story: chao tam biet
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+

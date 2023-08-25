@@ -1,0 +1,97 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - Xin chào
+    - chào bạn
+    - chào anh
+    - chào chị
+    - chào em
+    - chào buổi sáng
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - hẹn gặp lại bạn
+    - chào tạm biệt
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: weather
+  examples: |
+    - Nhiệt độ hôm nay bao nhiêu
+    - Tôi muốn xem dự báo thời tiết
+    - Thời tiết hôm nay như thế nào
+    - Dự báo thời tiết
+
+- intent: weather_location0
+  examples: |
+    - [Hà Nội](location0)
+    - [HN](location0)
+    - [hn](location0)
+
+- intent: weather_location1
+  examples: |
+    - [Phía Tây Bắc Bộ](location1)
+    - [Sơn La](location1)
+    - [Điện Biên](location1)
+    - [Lai Châu](location1)
+    - [Lào Cai](location1)
+    - [Yên Bái](location1)
+    - [Hòa Bình](location1)
+
+- intent: weather_location2
+  examples: |
+    - [Phía Đông Bắc Bộ](location2)
+    - [Quảng Ninh](location2)
+    - [Hải Phòng](location2)
+    - [Hưng Yên](location2)
+    - [Hải Dương](location2)
+    - [Bắc Ninh](location2)
+
+- intent: weather_location3
+  examples: |
+    - [Vinh](location3)
+    - [Thanh Hóa - Thừa Thiên Huế](location3)
+    - [Hà Tĩnh](location3)
+
+- intent: weather_location4
+  examples: |
+    - [Đà Nẵng đến Bình Thuận](loacation4)
+    - [Đà Nẵng](loacation4)
+    - [Quảng Nam](loacation4)
+
+- intent: weather_location5
+  examples: |
+    - [Tây Nguyên](location5)
+    - [Gia Lai](location5)
+    - [Lâm Đồng](location5)
+
+- intent: weather_location6
+  examples: |
+    - [Nam Bộ](location6)
+    - [TP. Hồ Chí Minh](location6)
+    - [Bình Dương](location6)
+    - [Đồng Nai](location6)
+    - [Bà Rịa - Vũng Tàu](location6)
+    - [Tiền Giang](location6)
+    - [Cần Thơ](location6)
+    
+    
+
+
+
+
+

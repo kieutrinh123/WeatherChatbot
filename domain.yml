@@ -1,0 +1,49 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - weather
+  - weather_location0
+  - weather_location1
+  - weather_location2
+  - weather_location3
+  - weather_location4
+  - weather_location5
+  - weather_location6
+
+entities:
+  - location0
+  - location1
+  - location2
+  - location3
+  - location4
+  - location5
+  - location6
+
+responses:
+  utter_greet:
+  - text: "Xin chào anh/chị!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_weather:
+  - text: "Bạn muốn xem thời tiết khu vực nào: Hà Nội, Phía Tây Bắc Bộ, Phía Đông Bắc Bộ, Thanh Hóa - Thừa Thiên Huế,
+          Đà Nẵng đến Bình Thuận, Tây Nguyên, Nam Bộ"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_weather
+  - action_weather_location0
+  - action_weather_location1
+  - action_weather_location2
+  - action_weather_location3
+  - action_weather_location4
+  - action_weather_location5
+  - action_weather_location6
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
